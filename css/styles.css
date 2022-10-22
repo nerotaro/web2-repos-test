@@ -7,17 +7,17 @@
     width: 10px;
   }
   
-  ::-webkit-scrollbar-track {
+::-webkit-scrollbar-track {
     background: #f1f1f1; 
   }
    
-  /* Handle */
-  ::-webkit-scrollbar-thumb {
+/* Handle */
+::-webkit-scrollbar-thumb {
     background: #888; 
   }
   
-  /* Handle on hover */
-  ::-webkit-scrollbar-thumb:hover {
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
     background: #555; 
   }
 
@@ -57,30 +57,9 @@ li a:hover:not(.active, .sm-active, .seychelles-active, .bhutan-active, .barbado
 }
 
 .active {
-    background-color: #04AA6D;
+    background-color: #783fd3;
 }
 
-h1 {
-    font-size: 3vw;
-    text-align: center;
-    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    color: white;
-}
-
-p {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    background-color: #333;
-    position: fixed;
-    left: 25%;
-    width: 50%;
-    font-size: 1.9vw;
-    text-align: center;
-    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    color: white;
-}
 
 /*HOMEPAGE ########### */
 
@@ -100,3 +79,60 @@ p {
     color: white;
 }
 
+.favorite-font {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: black;
+}
+
+#favorite-europe {
+    width: 230px;
+    height: 200px;
+    background-color: #888;
+    position: fixed;
+    top: 20%;
+    left: 10%
+}
+
+#europe-img {
+    position: relative;
+    top: 2.5%;
+    left: 2.5%;
+    width: 95%;
+    height: auto;
+}
+#europe-text {
+    position: relative;
+    top: -4%;
+    width: 100%;
+    left: 4%;
+}
+
+a  {
+    text-decoration: none;
+}
+
+#favorite-africa {
+    width: 230px;
+    height: 150px;
+    background-color: #888;
+    position: fixed;
+    top: 20%;
+    left: 23%
+}
+
+#africa-img {
+    position: relative;
+    top: 2.5%;
+    left: 2.5%;
+    width: 95%;
+    height: auto;
+}
+#africa-text {
+    position: relative;
+    top: -4%;
+    width: 100%;
+    left: 4%;
+}
+
+
+/*##########*/
