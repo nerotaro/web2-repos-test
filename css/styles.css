@@ -89,6 +89,8 @@ p {
     color: white;
 }
 
+/*HOMEPAGE ########### */
+
 .home-text {
     list-style-type: none;
     margin: 0;
@@ -104,6 +106,51 @@ p {
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     color: white;
 }
+
+#sanmarino-image-access {
+    position: fixed;
+    top: 45%;
+    left: 27%;
+    height: 20%;
+}
+
+#seychelles-image-access {
+    position: fixed;
+    top: 27%;
+    left: 27%;
+    height: 15%;
+}
+
+#bhutan-image-access {
+    position: fixed;
+    left: 41.7%;
+    top: 45%;
+    height: 19%;
+}
+
+#barbados-image-access {
+    position: fixed;
+    top: 27%;
+    left: 44%;
+    height: 15%;
+
+}
+
+#venezuela-image-access {
+    position: fixed;
+    top: 45%;
+    left: 57%;
+    height: 18%;
+}
+
+#marshallislands-image-access {
+    position: fixed;
+    top: 27%;
+    left: 57%;
+    height: 15%;
+}
+
+/*##########*/
 
 /* SAN MARINO ############# */
 
