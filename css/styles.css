@@ -150,6 +150,12 @@ p {
     height: 15%;
 }
 
+#github-link {
+    position: fixed;
+    top: 5%;
+    right: 0;
+}
+
 /*##########*/
 
 /* SAN MARINO ############# */
