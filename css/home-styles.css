@@ -89,20 +89,6 @@ li a:hover:not(.active, .sm-active, .seychelles-active, .bhutan-active, .barbado
     position: fixed;
 }
 
-#europe-img {
-    position: relative;
-    top: 2.5%;
-    left: 2.5%;
-    width: 95%;
-    height: auto;
-}
-#europe-text {
-    position: relative;
-    top: -4%;
-    width: 100%;
-    left: 4%;
-}
-
 a  {
     text-decoration: none;
 }
@@ -146,7 +132,7 @@ a  {
 .sanmarino-home-pos{
     position: relative;
     top: 20%;
-    left: 13%;
+    left: 13.3%;
     width: 230px;
     height: 200px;
 }
@@ -171,6 +157,72 @@ a  {
     left: 40.7%;
     width: 230px;
     height: 185px;
+}
+
+#barbados-text {
+    position: relative;
+    top: -6%;
+    width: 100%;
+    left: 4%;
+}
+#barbados-home-img-pos {
+    position: relative;
+    top: 2.5%;
+    left: 2.5%;
+    width: 95%;
+    height: auto;
+}
+
+.barbados-home-pos{
+    position: relative;
+    top: 20%;
+    left: 54.5%;
+    width: 230px;
+    height: 180px;
+}
+
+#venezuela-text {
+    position: relative;
+    top: -6%;
+    width: 100%;
+    left: 2.5%;
+}
+#venezuela-home-img-pos {
+    position: relative;
+    top: 2.5%;
+    left: 2.5%;
+    width: 95%;
+    height: auto;
+}
+
+.venezuela-home-pos{
+    position: relative;
+    top: 20%;
+    left: 68.5%;
+    width: 230px;
+    height: 180px;
+}
+
+#marshallislands-text {
+    position: relative;
+    top: -6%;
+    width: 100%;
+    left: 2.5%;
+}
+#marshallislands-home-img-pos {
+    position: relative;
+    top: 2.5%;
+    left: 2.5%;
+    width: 95%;
+    height: auto;
+}
+
+.marshallislands-home-pos{
+    position: relative;
+    top: 45%;
+    left: 13.3%;
+    width: 230px;
+    height: 150px;
 }
 
 /*##########*/
