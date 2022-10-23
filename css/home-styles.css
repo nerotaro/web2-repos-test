@@ -269,5 +269,26 @@ a  {
     height: 160px;
     background-color:#888;
 }
+#zimbabwe-text {
+    position: relative;
+    top: -6%;
+    width: 100%;
+    left: 2.5%;
+}
+#zimbabwe-home-img-pos {
+    position: relative;
+    top: 2.5%;
+    left: 2.5%;
+    width: 95%;
+    height: auto;
+}
 
+.zimbabwe-home-pos{
+    position: relative;
+    top: 11vw;
+    left: 54.6%;
+    width: 230px;
+    height: 147px;
+    background-color:#888;
+}
 /*##########*/
