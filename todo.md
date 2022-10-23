@@ -3,3 +3,8 @@
 - change layout to "continents/countries"
 - only show flag, no information about it
 - add at least 5 flags from each continent
+
+planned countries:
+- zimbabwe
+- democratic republic of congo
+- madagascar
