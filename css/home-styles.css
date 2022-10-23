@@ -5,21 +5,25 @@
 
 ::-webkit-scrollbar {
     width: 10px;
-  }
+}
   
 ::-webkit-scrollbar-track {
     background: #f1f1f1; 
-  }
+}
    
 /* Handle */
 ::-webkit-scrollbar-thumb {
         background: #888; 
-  }
+}
   
 /* Handle on hover */
 ::-webkit-scrollbar-thumb:hover {
     background: #555; 
-  }
+}
+
+div {
+    border-radius: 5px;
+}
 
 
 
@@ -245,6 +249,7 @@ a  {
     left: 27%;
     width: 230px;
     height: 190px;
+    background-color:#888;
 }
 
 #canada-text {
@@ -269,6 +274,7 @@ a  {
     height: 160px;
     background-color:#888;
 }
+
 #zimbabwe-text {
     position: relative;
     top: -6%;
@@ -289,6 +295,29 @@ a  {
     left: 54.6%;
     width: 230px;
     height: 147px;
+    background-color:#888;
+}
+
+#drc-text {
+    position: relative;
+    top: -6%;
+    width: 100%;
+    left: 2.5%;
+}
+#drc-home-img-pos {
+    position: relative;
+    top: 2.5%;
+    left: 2.5%;
+    width: 95%;
+    height: auto;
+}
+
+.drc-home-pos{
+    position: relative;
+    top: 3.3vw;
+    left: 68.5%;
+    width: 230px;
+    height: 197px;
     background-color:#888;
 }
 /*##########*/

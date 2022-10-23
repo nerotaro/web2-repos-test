@@ -7,3 +7,5 @@
 planned countries:
 - democratic republic of congo
 - madagascar
+- somalia
+- nepal
