@@ -151,4 +151,26 @@ a  {
     height: 200px;
 }
 
+#bhutan-text {
+    position: relative;
+    top: -4%;
+    width: 100%;
+    left: 4%;
+}
+#bhutan-home-img-pos {
+    position: relative;
+    top: 2.5%;
+    left: 2.5%;
+    width: 95%;
+    height: auto;
+}
+
+.bhutan-home-pos{
+    position: relative;
+    top: 20%;
+    left: 40.7%;
+    width: 230px;
+    height: 185px;
+}
+
 /*##########*/
