@@ -13,7 +13,7 @@
    
 /* Handle */
 ::-webkit-scrollbar-thumb {
-    background: #888; 
+        background: #888; 
   }
   
 /* Handle on hover */
@@ -84,13 +84,9 @@ li a:hover:not(.active, .sm-active, .seychelles-active, .bhutan-active, .barbado
     color: black;
 }
 
-#favorite-europe {
-    width: 230px;
-    height: 200px;
+#homepage-flag {
     background-color: #888;
     position: fixed;
-    top: 20%;
-    left: 10%
 }
 
 #europe-img {
@@ -111,28 +107,48 @@ a  {
     text-decoration: none;
 }
 
-#favorite-africa {
+.seychelles-home-pos {
+    position: relative;
+    top: 20%;
+    left: 27%;
     width: 230px;
     height: 150px;
-    background-color: #888;
-    position: fixed;
-    top: 20%;
-    left: 23%
 }
 
-#africa-img {
+#seychelles-home-img-pos {
     position: relative;
     top: 2.5%;
     left: 2.5%;
     width: 95%;
     height: auto;
 }
-#africa-text {
+#seychelles-text {
     position: relative;
     top: -4%;
     width: 100%;
     left: 4%;
 }
 
+#sanmarino-text {
+    position: relative;
+    top: -4%;
+    width: 100%;
+    left: 4%;
+}
+#sanmarino-home-img-pos {
+    position: relative;
+    top: 2.5%;
+    left: 2.5%;
+    width: 95%;
+    height: auto;
+}
+
+.sanmarino-home-pos{
+    position: relative;
+    top: 20%;
+    left: 13%;
+    width: 230px;
+    height: 200px;
+}
 
 /*##########*/
