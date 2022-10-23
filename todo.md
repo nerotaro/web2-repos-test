@@ -5,6 +5,5 @@
 - add at least 5 flags from each continent
 
 planned countries:
-- zimbabwe
 - democratic republic of congo
 - madagascar
