@@ -219,10 +219,32 @@ a  {
 
 .marshallislands-home-pos{
     position: relative;
-    top: 45%;
+    top: 42.5%;
     left: 13.3%;
     width: 230px;
     height: 150px;
+}
+
+#norway-text {
+    position: relative;
+    top: -6%;
+    width: 100%;
+    left: 2.5%;
+}
+#norway-home-img-pos {
+    position: relative;
+    top: 2.5%;
+    left: 2.5%;
+    width: 95%;
+    height: auto;
+}
+
+.norway-home-pos{
+    position: relative;
+    top: 37%;
+    left: 27%;
+    width: 230px;
+    height: 190px;
 }
 
 /*##########*/
