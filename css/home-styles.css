@@ -320,4 +320,27 @@ a  {
     height: 197px;
     background-color:#888;
 }
+
+#nepal-text {
+    position: relative;
+    top: -6%;
+    width: 100%;
+    left: 2.5%;
+}
+#nepal-home-img-pos {
+    position: relative;
+    top: 2.5%;
+    left: 2.5%;
+    height: 150px;
+    height: auto;
+}
+
+.nepal-home-pos{
+    position: relative;
+    top: 3.3vw;
+    left: 68.5%;
+    width: 230px;
+    height: 197px;
+    background-color:#888;
+}
 /*##########*/
