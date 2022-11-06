@@ -1,0 +1,346 @@
+
+.background {
+    background-color: #cccc;
+}
+
+::-webkit-scrollbar {
+    width: 10px;
+}
+  
+::-webkit-scrollbar-track {
+    background: #f1f1f1; 
+}
+   
+/* Handle */
+::-webkit-scrollbar-thumb {
+        background: #888; 
+}
+  
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: #555; 
+}
+
+div {
+    border-radius: 5px;
+}
+
+
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+li {
+    float: left;
+    border-right: 1px solid #bbb;
+}
+
+li:last-child {
+    border-right: none;
+}
+
+li a {
+    display: block;
+    padding: 14px 16px;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    font-family: "Monaco", monospace;
+}
+
+li a:hover:not(.active, .sm-active, .seychelles-active, .bhutan-active, .barbados-active, .venezuela-active, .mi-active) {
+    background-color: #111;
+}
+
+.active {
+    background-color: #783fd3;
+}
+
+
+/*HOMEPAGE ########### */
+
+.home-text {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgb(156, 156, 156);
+    position: fixed;
+    left: 25%;
+    width: 50%;
+    top: 16%;
+    font-size: 1.9vw;
+    text-align: center;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: white;
+}
+
+.favorite-font {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: black;
+}
+
+#homepage-flag {
+    background-color: #888;
+    position: fixed;
+}
+
+a  {
+    text-decoration: none;
+}
+
+.seychelles-home-pos {
+    position: relative;
+    top: 20%;
+    left: 27%;
+    width: 230px;
+    height: 150px;
+}
+
+#seychelles-home-img-pos {
+    position: relative;
+    top: 2.5%;
+    left: 2.5%;
+    width: 95%;
+    height: auto;
+}
+#seychelles-text {
+    position: relative;
+    top: -4%;
+    width: 100%;
+    left: 4%;
+}
+
+#sanmarino-text {
+    position: relative;
+    top: -4%;
+    width: 100%;
+    left: 4%;
+}
+#sanmarino-home-img-pos {
+    position: relative;
+    top: 2.5%;
+    left: 2.5%;
+    width: 95%;
+    height: auto;
+}
+
+.sanmarino-home-pos{
+    position: relative;
+    top: 20%;
+    left: 13.3%;
+    width: 230px;
+    height: 200px;
+}
+
+#bhutan-text {
+    position: relative;
+    top: -4%;
+    width: 100%;
+    left: 4%;
+}
+#bhutan-home-img-pos {
+    position: relative;
+    top: 2.5%;
+    left: 2.5%;
+    width: 95%;
+    height: auto;
+}
+
+.bhutan-home-pos{
+    position: relative;
+    top: 20%;
+    left: 40.7%;
+    width: 230px;
+    height: 185px;
+}
+
+#barbados-text {
+    position: relative;
+    top: -6%;
+    width: 100%;
+    left: 4%;
+}
+#barbados-home-img-pos {
+    position: relative;
+    top: 2.5%;
+    left: 2.5%;
+    width: 95%;
+    height: auto;
+}
+
+.barbados-home-pos{
+    position: relative;
+    top: 20%;
+    left: 54.5%;
+    width: 230px;
+    height: 180px;
+}
+
+#venezuela-text {
+    position: relative;
+    top: -6%;
+    width: 100%;
+    left: 2.5%;
+}
+#venezuela-home-img-pos {
+    position: relative;
+    top: 2.5%;
+    left: 2.5%;
+    width: 95%;
+    height: auto;
+}
+
+.venezuela-home-pos{
+    position: relative;
+    top: 20%;
+    left: 68.5%;
+    width: 230px;
+    height: 180px;
+}
+
+#marshallislands-text {
+    position: relative;
+    top: -6%;
+    width: 100%;
+    left: 2.5%;
+}
+#marshallislands-home-img-pos {
+    position: relative;
+    top: 2.5%;
+    left: 2.5%;
+    width: 95%;
+    height: auto;
+}
+
+.marshallislands-home-pos{
+    position: relative;
+    top: 42.5%;
+    left: 13.3%;
+    width: 230px;
+    height: 150px;
+}
+
+#norway-text {
+    position: relative;
+    top: -6%;
+    width: 100%;
+    left: 2.5%;
+}
+#norway-home-img-pos {
+    position: relative;
+    top: 2.5%;
+    left: 2.5%;
+    width: 95%;
+    height: auto;
+}
+
+.norway-home-pos{
+    position: relative;
+    top: 37%;
+    left: 27%;
+    width: 230px;
+    height: 190px;
+    background-color:#888;
+}
+
+#canada-text {
+    position: relative;
+    top: -6%;
+    width: 100%;
+    left: 2.5%;
+}
+#canada-home-img-pos {
+    position: relative;
+    top: 2.5%;
+    left: 2.5%;
+    width: 95%;
+    height: auto;
+}
+
+.canada-home-pos{
+    position: relative;
+    top: 370px;
+    left: 40.7%;
+    width: 230px;
+    height: 160px;
+    background-color:#888;
+}
+
+#zimbabwe-text {
+    position: relative;
+    top: -6%;
+    width: 100%;
+    left: 2.5%;
+}
+#zimbabwe-home-img-pos {
+    position: relative;
+    top: 2.5%;
+    left: 2.5%;
+    width: 95%;
+    height: auto;
+}
+
+.zimbabwe-home-pos{
+    position: relative;
+    top: 11vw;
+    left: 54.6%;
+    width: 230px;
+    height: 147px;
+    background-color:#888;
+}
+
+#drc-text {
+    position: relative;
+    top: -6%;
+    width: 100%;
+    left: 2.5%;
+}
+#drc-home-img-pos {
+    position: relative;
+    top: 2.5%;
+    left: 2.5%;
+    width: 95%;
+    height: auto;
+}
+
+.drc-home-pos{
+    position: relative;
+    top: 3.3vw;
+    left: 68.5%;
+    width: 230px;
+    height: 197px;
+    background-color:#888;
+}
+
+#nepal-text {
+    position: relative;
+    top: -6%;
+    width: 100%;
+    left: 2.5%;
+}
+#nepal-home-img-pos {
+    position: relative;
+    top: 2.5%;
+    left: 2.5%;
+    height: 150px;
+    height: auto;
+}
+
+.nepal-home-pos{
+    position: relative;
+    top: 3.3vw;
+    left: 68.5%;
+    width: 230px;
+    height: 197px;
+    background-color:#888;
+}
+/*##########*/
